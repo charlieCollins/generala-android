@@ -1,7 +1,8 @@
-package generala.totsp.com.generala;
+package com.totsp.generala_android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import generala.totsp.com.generala.R;
 
 public class AboutActivity extends AppCompatActivity {
 

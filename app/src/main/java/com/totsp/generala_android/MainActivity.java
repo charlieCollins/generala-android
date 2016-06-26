@@ -1,11 +1,7 @@
-package generala.totsp.com.generala;
+package com.totsp.generala_android;
 
-import android.media.Image;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.Menu;
@@ -13,6 +9,7 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+import generala.totsp.com.generala.R;
 
 public class MainActivity extends AppCompatActivity {
 
