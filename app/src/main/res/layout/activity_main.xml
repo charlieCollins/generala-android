@@ -72,7 +72,7 @@
                 <ToggleButton
                         android:layout_width="90dp"
                         android:layout_height="90dp"
-                        android:id="@+id/diceButton4"
+                        android:id="@+id/diceButton3"
                         android:textOn=""
                         android:textOff=""
                         android:focusable="false"
@@ -84,7 +84,7 @@
                 <ToggleButton
                         android:layout_width="90dp"
                         android:layout_height="90dp"
-                        android:id="@+id/diceButton5"
+                        android:id="@+id/diceButton4"
                         android:textOn=""
                         android:textOff=""
                         android:focusable="false"
@@ -101,7 +101,7 @@
                         android:focusable="false"
                         android:focusableInTouchMode="false"
                         android:background="@drawable/dice5"
-                        android:id="@+id/diceButton6"
+                        android:id="@+id/diceButton5"
                         android:scaleType="fitCenter"/>
             </LinearLayout>
 
