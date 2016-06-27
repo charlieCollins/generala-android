@@ -1,106 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="com.totsp.generala_android.MainActivity">
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:fitsSystemWindows="true"
+                                                 tools:context="com.totsp.generala_android.MainActivity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.totsp.generala_android.MainActivity"
-        tools:showIn="@layout/activity_main">
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:paddingBottom="@dimen/activity_vertical_margin"
+                  android:paddingLeft="@dimen/activity_horizontal_margin"
+                  android:paddingRight="@dimen/activity_horizontal_margin"
+                  android:paddingTop="@dimen/activity_vertical_margin"
+                  tools:context="com.totsp.generala_android.MainActivity"
+                  tools:showIn="@layout/activity_main">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_marginTop="5dp"
-            android:layout_height="wrap_content"
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@drawable/border"
+                      android:layout_marginBottom="10dp"
+                      android:paddingBottom="10dp"
+        >
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
             >
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/diceButton1"
-                android:src="@drawable/dice1"
-                android:scaleType="fitCenter"/>
+                <ToggleButton
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/diceButton1"
+                        android:textOn=""
+                        android:textOff=""
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dice1"
+                        android:scaleType="fitCenter"
+                        android:layout_marginRight="5dp"/>
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/diceButton2"
-                android:src="@drawable/dice2"
-                android:scaleType="fitCenter"/>
+                <ToggleButton
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/diceButton2"
+                        android:textOn=""
+                        android:textOff=""
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dice2"
+                        android:scaleType="fitCenter"
+                        android:layout_marginRight="5dp"/>
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/diceButton3"
-                android:src="@drawable/dice3"
-                android:scaleType="fitCenter"/>
-        </LinearLayout>
+            </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_marginTop="5dp"
-            android:layout_height="wrap_content"
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
             >
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/diceButton4"
-                android:src="@drawable/dice4"
-                android:scaleType="fitCenter"/>
+                <ToggleButton
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/diceButton4"
+                        android:textOn=""
+                        android:textOff=""
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dice3"
+                        android:scaleType="fitCenter"
+                        android:layout_marginRight="5dp"/>
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/diceButton5"
-                android:src="@drawable/dice5"
-                android:scaleType="fitCenter"/>
+                <ToggleButton
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/diceButton5"
+                        android:textOn=""
+                        android:textOff=""
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dice4"
+                        android:scaleType="fitCenter"
+                        android:layout_marginRight="5dp"/>
 
-            <ToggleButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:textOn=""
-                android:textOff=""
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:background="@drawable/dice6"
-                android:id="@+id/diceButton6"
-                android:scaleType="fitCenter"/>
+                <ToggleButton
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:textOn=""
+                        android:textOff=""
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dice5"
+                        android:id="@+id/diceButton6"
+                        android:scaleType="fitCenter"/>
+            </LinearLayout>
+
+
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/rollDiceButton"
-                android:text="ROLL"/>
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/selectScoreButton"
-                android:text="SELECT SCORE"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rollDiceButton"
+                    android:text="ROLL"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/selectScoreButton"
+                    android:text="SELECT SCORE"/>
 
         </LinearLayout>
-
 
     </LinearLayout>
+
+
 </android.support.design.widget.CoordinatorLayout>
